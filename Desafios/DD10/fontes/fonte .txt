@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code:wght@300&family=Oswald:wght@200&display=swap');
+
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Oswald', sans-serif;
