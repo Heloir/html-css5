@@ -13,7 +13,7 @@ This place I put my projects from when I started studying HTML and CSS5, I left 
 Exemplo : 
 
 Site de Seleção de janelas diferentes : 
-heloir.github.io/html-css5/Site_Teste_de_Seleção_de_vídeo
+https://heloir.github.io/html-css5/Site_Teste_de_Seleção_de_vídeo
 
 
 
