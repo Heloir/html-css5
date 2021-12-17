@@ -22,3 +22,5 @@ Também aqui contém meus testes de comandos em HTML5 e CSS3.
 
 Com vários exercícios como(exercícios bobos mas poderosos) :
 https://heloir.github.io/html-css5/ex020/pseudoclasses.html
+
+ou https://heloir.github.io/html-css5/menu-seleçao/
