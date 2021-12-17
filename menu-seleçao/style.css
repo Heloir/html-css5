@@ -5,16 +5,11 @@
 }
 
 main{
-    min-height: 493px;
-    max-height: 800px;
-    min-width: 510px;
-    max-width: 800px;
     margin: auto;
-    
 }
 
-main .quadrado{
-    margin: 19px 238px 10px;
+main .quadrado{   
+    margin: 0px 0px 0px;
     padding: 35px;
     border: 1px solid black;
     transition-duration: 0.5s;
@@ -23,7 +18,7 @@ main .quadrado{
     
 }
 main .quadrado2{
-    margin: 19px 238px 10px;
+    margin: 34px 0px 0px;
     padding: 35px;
     border: 1px solid black;
     transition-duration: 0.5s;
