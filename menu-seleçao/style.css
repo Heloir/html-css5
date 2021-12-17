@@ -8,17 +8,27 @@ main{
     margin: auto;
 }
 
-main .quadrado{   
-    margin: 0px 0px 0px;
+header{
+    margin: auto;
+
+}
+
+.quadrado{   
+    width: 300px;
+    margin: auto;
     padding: 35px;
     border: 1px solid black;
     transition-duration: 0.5s;
     text-decoration: none;
+    
+    
 
     
 }
-main .quadrado2{
-    margin: 34px 0px 0px;
+
+.quadrado2{
+    margin: auto;
+    width: 300px;
     padding: 35px;
     border: 1px solid black;
     transition-duration: 0.5s;
