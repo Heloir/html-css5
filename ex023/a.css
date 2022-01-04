@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'league';
+    src: url(Pushster-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    --font: 'Arial', sans-serif;
+
+    
+}
+body{
+
+    font-family: var(--font);
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: 210vh;
+    background-position: center top;
+    
+}
+body h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'league';
+    margin-top: 100px;
+    text-align: center;
+}
+
+body p{
+    margin: 3vw 19vw 1vw;
+    padding: 1.5vh;
+    background-color: rgba(85, 85, 85, 0.082);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-indent: 30px;
+}
+nav{
+    padding: 20px;
+    background-color: rgba(10, 53, 94, 0.212);
+    
+}
+
+nav li{
+    color: white;
+    margin: 10px;
+    display: inline-block;
+    list-style: none;
+    
+}
+
+nav a{
+    transition: 0.5s;
+}
+
+nav a:hover{
+    
+    background-color: rgba(64, 224, 208, 0.13);
+    padding: 30px;
+
+}
