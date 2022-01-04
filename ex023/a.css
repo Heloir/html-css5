@@ -14,7 +14,6 @@
     
 }
 body{
-
     font-family: var(--font);
     background-image: url(img.jpg);
     background-repeat: no-repeat;
@@ -31,6 +30,7 @@ body h1{
 }
 
 body p{
+    text-decoration: none;
     margin: 3vw 19vw 1vw;
     padding: 1.5vh;
     background-color: rgba(85, 85, 85, 0.082);
@@ -38,12 +38,23 @@ body p{
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-indent: 30px;
+    transition: 0.5s;
+}
+
+header a{
+    text-decoration: none;
+}
+body p:hover{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.295);
 }
 nav{
     padding: 20px;
     background-color: rgba(10, 53, 94, 0.212);
     
 }
+
+
 
 nav li{
     color: white;
