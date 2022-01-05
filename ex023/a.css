@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family: 'league';
     src: url(Pushster-Regular.ttf);
@@ -14,11 +16,13 @@
     
 }
 body{
+    background-attachment: fixed;
     font-family: var(--font);
     background-image: url(img.jpg);
     background-repeat: no-repeat;
     background-size: 210vh;
     background-position: center top;
+    transform: absolute;
     
 }
 body h1{
@@ -32,8 +36,8 @@ body h1{
 body p{
     text-decoration: none;
     margin: 3vw 19vw 1vw;
-    padding: 1.5vh;
-    background-color: rgba(85, 85, 85, 0.082);
+    padding: 4.5vh;
+    background-color: rgba(85, 85, 85, 0.438);
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -41,36 +45,66 @@ body p{
     transition: 0.5s;
 }
 
-header a{
-    text-decoration: none;
-}
+
 body p:hover{
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.295);
 }
-nav{
-    padding: 20px;
-    background-color: rgba(10, 53, 94, 0.212);
-    
+
+body a{
+    text-decoration: none;
 }
 
 
 
-nav li{
-    color: white;
-    margin: 10px;
-    display: inline-block;
-    list-style: none;
+
+
+nav{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
     
+}
+
+nav li{
+    list-style:none;
 }
 
 nav a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
     transition: 0.5s;
+    display: inline-block;
 }
 
 nav a:hover{
-    
-    background-color: rgba(64, 224, 208, 0.13);
-    padding: 30px;
+    color: black;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
 
+
+
+
+
+.aa{
+    float: right;
+    transition: 0.5s;
+}
+
+
+
+
+a #apk{
+    transform: relative;
+    border-radius: 20px;
+    background-color: rgba(132, 132, 243, 0.288);
+    margin: 109px;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+a #apk:hover{
+    border-radius: 40px;
 }
